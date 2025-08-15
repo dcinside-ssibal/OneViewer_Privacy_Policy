@@ -17,23 +17,44 @@
     <p><strong>최종 업데이트: 2025-08-14</strong></p>
 
     <h2>1. 서론</h2>
-    <p>본 개인정보처리방침은 'OneViewer for dcinside' Chrome 확장 프로그램(이하 '확장 프로그램')이 사용자의 데이터를 어떻게 수집, 사용, 보호하는지에 대해 설명합니다. 저희는 사용자의 개인정보를 매우 중요하게 생각하며, 최소한의 정보만을 수집하여 서비스의 핵심 기능을 제공하는 데 사용합니다.</p>
+    <p>본 개인정보처리방침은 'OneViewer for dcinside' Chrome 확장 프로그램(이하 '확장 프로그램')이 사용자의 데이터를 어떻게 수집, 사용, 보호하는지에 대해 설명합니다. 저희는 사용자의 개인정보를 매우 중요하게 생각하며, 서비스의 핵심 기능을 제공하는 데 필요한 최소한의 정보만을 처리합니다.</p>
 
-    <h2>2. 수집하는 정보</h2>
-    <p>확장 프로그램은 서비스 제공을 위해 다음과 같은 정보를 사용자의 컴퓨터에 저장합니다. <strong>이 정보는 외부 서버로 절대 전송되지 않습니다.</strong></p>
+    <h2>2. 수집 및 처리하는 정보</h2>
+    <p>확장 프로그램은 서비스 제공을 위해 다음과 같은 정보를 사용자의 컴퓨터에서 처리합니다. 이 정보 중 <strong>읽은 게시물 목록</strong> 및 <strong>확장 프로그램 설정</strong> 외에는 사용자의 컴퓨터에 저장되지 않으며, 어떠한 정보도 외부 서버로 전송되지 않습니다.</p>
     <ul>
         <li>
             <strong>읽은 게시물 목록 (Viewed Post History)</strong>
             <ul>
-                <li><strong>수집 항목:</strong> 사용자가 'OneViewer'를 통해 확인한 게시물의 URL 목록.</li>
-                <li><strong>저장 위치:</strong> 사용자의 브라우저 내 로컬 스토리지(<code>localStorage</code>). 이 데이터는 다른 기기와 동기화되지 않으며, 브라우저 캐시를 삭제하면 제거될 수 있습니다.</li>
+                <li>수집 항목: 사용자가 'OneViewer'를 통해 확인한 게시물의 URL 목록.</li>
+                <li>저장 위치: 사용자의 브라우저 내 로컬 스토리지(<code>localStorage</code>). 이 데이터는 다른 기기와 동기화되지 않으며, 브라우저 캐시를 삭제하면 제거될 수 있습니다.</li>
             </ul>
         </li>
         <li>
             <strong>확장 프로그램 설정 (Extension Settings)</strong>
             <ul>
-                <li><strong>수집 항목:</strong> 확장 프로그램 활성화 여부(<code>extensionEnabled</code>), 다크 모드 사용 여부(<code>darkMode</code>)와 같은 설정값.</li>
-                <li><strong>저장 위치:</strong> Chrome 동기화 스토리지(<code>chrome.storage.sync</code>). 이 데이터는 사용자가 Chrome에 로그인한 경우, 동일한 Google 계정을 사용하는 다른 기기와 동기화될 수 있습니다.</li>
+                <li>수집 항목: 확장 프로그램 활성화 여부(<code>extensionEnabled</code>), 다크 모드 사용 여부(<code>darkMode</code>)와 같은 설정값.</li>
+                <li>저장 위치: Chrome 동기화 스토리지(<code>chrome.storage.sync</code>). 이 데이터는 사용자가 Chrome에 로그인한 경우, 동일한 Google 계정을 사용하는 다른 기기와 동기화될 수 있습니다.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>웹사이트 콘텐츠 (Website Content)</strong>
+            <ul>
+                <li>처리 항목: 디시인사이드 웹사이트의 게시글 본문, 댓글, 제목, 이미지, 영상 링크 등.</li>
+                <li>처리 목적: 확장 프로그램의 핵심 기능인 3단 뷰어를 통해 해당 콘텐츠를 사용자에게 보여주기 위해 실시간으로 분석 및 처리됩니다.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>사용자 활동 (User Activity)</strong>
+            <ul>
+                <li>처리 항목: 키보드 입력(방향키), 마우스 클릭 및 움직임.</li>
+                <li>처리 목적: 글 목록을 키보드로 탐색하거나, 패널의 크기를 조절하는 등 확장 프로그램의 UI 상호작용을 구현하기 위해 사용됩니다.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>게시글 작성자의 IP 주소 (Author's IP Address)</strong>
+            <ul>
+                <li>처리 항목: 디시인사이드 웹페이지에 표시된 게시글 또는 댓글 작성자의 IP 주소.</li>
+                <li>처리 목적: 웹페이지에 표시된 정보를 그대로 읽어와 사용자에게 표시하는 데 사용됩니다. 이 정보는 확장 프로그램 사용자의 개인정보가 아니며, 외부로 전송되거나 저장되지 않습니다.</li>
             </ul>
         </li>
     </ul>
@@ -54,7 +75,7 @@
     
     <h2>6. 연락처</h2>
     <p>본 개인정보처리방침에 대해 질문이 있으시면 아래 이메일로 연락 주시기 바랍니다.</p>
-    <p><strong>이메일:</strong> dcinside.ssibal@gmail.com</p>
+    <p>이메일: <a href="mailto:dcinside.ssibal@gmail.com">dcinside.ssibal@gmail.com</a></p>
 
     <h2>7. 정책 변경</h2>
     <p>본 개인정보처리방침은 법률이나 서비스의 변경 사항을 반영하기 위해 개정될 수 있습니다. 변경 사항이 있을 경우, 확장 프로그램 설명 페이지 등을 통해 공지하겠습니다.</p>
